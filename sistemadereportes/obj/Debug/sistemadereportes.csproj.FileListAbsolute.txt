@@ -1,0 +1,17 @@
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\bin\Debug\sistemadereportes.exe.config
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\bin\Debug\sistemadereportes.exe
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\bin\Debug\sistemadereportes.pdb
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\bin\Debug\CapaEntidades.dll
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\bin\Debug\CapaNegocio.dll
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\bin\Debug\CapaEntidades.pdb
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\bin\Debug\CapaNegocio.pdb
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\obj\Debug\sistemadereportes.csprojResolveAssemblyReference.cache
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\obj\Debug\sistemadereportes.login.resources
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\obj\Debug\sistemadereportes.Properties.Resources.resources
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\obj\Debug\sistemadereportes.csproj.GenerateResource.Cache
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\obj\Debug\sistemadereportes.exe
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\obj\Debug\sistemadereportes.pdb
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\bin\Debug\Capadatos.dll
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\bin\Debug\Capadatos.pdb
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\obj\Debug\sistemadereportes.principal.resources
+C:\sistema de reportes\scorpion\sistemadereportes\sistemadereportes\obj\Debug\sistemadereportes.Agregar.resources

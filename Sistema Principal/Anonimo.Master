@@ -1,0 +1,208 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Anonimo.master.cs" Inherits="Sistema_Principal.Anonimo1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="estilos.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <!--Todo el codigo -->
+
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            background-color: gainsboro;
+            width: 1020px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="abrigo_general">
+        <div id="content_anonimo">
+            <table>
+                <tr>
+                    <td>
+                        <asp:Image ID="logo" runat="server" ImageUrl="~/imagenessistema/logo.jpg" Width="113px" Height="49px"/> 
+                        <td id="content_titulo" align="center" class="auto-style1">
+                            <asp:Label ID="Label1" runat="server" Text="Soporte y Mantenimiento Técnico" Font-Bold="True" Font-Italic="True" Font-Size="XX-Large" ForeColor="#0000CC"></asp:Label>
+                        </td>
+                        <td class="fondotitulo">
+                            <div style="width:170px">
+                                <div style="text-align:right; float:left;width:150px" >Usuario:
+                                    <asp:Label ID="NombreUsuario" runat="server" Text=""></asp:Label>
+                                </div>
+                                <div style="text-align:right; float:left;width:150px">Perfil:
+                                    <asp:Label ID="Perfil" runat="server" Text=""></asp:Label>
+                                </div>
+                                <div style="float:left; text-align:right; width:150px">
+                                    <asp:LinkButton ID="Lbtlogout" runat="server" OnClick="Lbtlogout_Click">Logout</asp:LinkButton>
+                                </div>
+                            </div>
+                        </td>
+                    </td>
+                </tr>
+            </table> 
+        </div> 
+        <div id="contenido_izquierdo">
+            <h3>Menu Principal </h3>
+                <%
+
+                    HplMenu.Text = "Reportes Abiertos o en Proceso";
+                    HplMenu.NavigateUrl = "FrmPrincipal.aspx?men=" + 1;
+                    HplMenu2.Text = "Reportes Cerrados";
+                    HplMenu2.NavigateUrl = "FrmPrincipal.aspx?men=" + 2;
+                    Hplcordinador1.Text= "Abiertos";
+                    Hplcordinador1.NavigateUrl = "FrmPrincipal.aspx?men=" + 3;
+                    Hplcordinador11.Text = "Cerrados";
+                    Hplcordinador11.NavigateUrl="FrmPrincipal.aspx?men=" + 4;
+
+                    Hplcordinador2.Text = "Abiertos";
+                    Hplcordinador2.NavigateUrl = "FrmPrincipal.aspx?men=" + 5;
+                    Hplcordinador22.Text = "Cerrados";
+                    Hplcordinador22.NavigateUrl = "FrmPrincipal.aspx?men=" + 6;
+
+                    hplsoporte1.Text = "Abiertos";
+                    hplsoporte1.NavigateUrl = "FrmPrincipal.aspx?men=" + 7;
+                    Hplsoporte11.Text = "Cerrados";
+                    Hplsoporte11.NavigateUrl = "FrmPrincipal.aspx?men=" + 8;
+
+                    Hplsoporte2.Text = "Abiertos";
+                    Hplsoporte2.NavigateUrl = "FrmPrincipal.aspx?men=" + 9;
+                    Hplsoporte22.Text = "Cerrados";
+                    Hplsoporte22.NavigateUrl = "FrmPrincipal.aspx?men=" + 10;
+
+                    Hplsoporte0.Text = "Abiertos";
+                    Hplsoporte0.NavigateUrl = "FrmPrincipal.aspx?men=" + 11;
+                    Hplsoporte00.Text = "Cerrados";
+                    Hplsoporte00.NavigateUrl = "FrmPrincipal.aspx?men=" + 12;
+
+                    Hplsoporte000.Text = "Abiertos";
+                    Hplsoporte000.NavigateUrl = "FrmPrincipal.aspx?men=" + 13;
+                    Hplsoporte0000.Text = "Cerrados";
+                    Hplsoporte0000.NavigateUrl = "FrmPrincipal.aspx?men=" + 14;
+
+                    Hplsoporte3.Text = "Abiertos";
+                    Hplsoporte3.NavigateUrl = "FrmPrincipal.aspx?men=" + 15;
+                    Hplsoporte33.Text = "Cerrados";
+                    Hplsoporte33.NavigateUrl = "FrmPrincipal.aspx?men=" + 16;
+
+                    Hplestadisticagral.Text = "Reportes por mes";
+                    Hplestadisticagral.NavigateUrl = "Frmgrafica.aspx?";
+
+                %>
+
+                <div class="etiqueta">
+
+                    <asp:HyperLink ID="HplMenu" runat="server"></asp:HyperLink>
+
+                </div>
+
+                <div class="etiqueta">
+                    
+                    <asp:HyperLink ID="HplMenu2" runat="server"></asp:HyperLink>
+
+                </div>
+                
+                <div class="etiqueta">
+                    <asp:Label ID="Lblcordinadores" runat="server" Text="Reportes por Zona" Font-Bold="True" Font-Italic="True" Font-Size="Medium" ForeColor="Black"></asp:Label>
+                </div>
+                
+                <div>
+                    <asp:Label ID="Lblroberto" runat="server" Text="Roberto Cortez" ForeColor="Black" Font-Bold="True"></asp:Label>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplcordinador1" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplcordinador11" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:Label ID="Lblhector" runat="server" Text="Hector Ruiz" Font-Bold="True" ForeColor="Black"></asp:Label>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplcordinador2" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplcordinador22" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:Label ID="Lblsoporte" runat="server" Text="Reportes por ingeniero" Font-Bold="True" Font-Italic="True" Font-Size="Medium" ForeColor="Black"></asp:Label>
+                </div>
+                <div class="etiqueta">
+                    <asp:Label ID="LblRobertoo" runat="server" Text="Roberto Cortez" Font-Bold="True"></asp:Label>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplsoporte0" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplsoporte00" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:Label ID="LblHectorr" runat="server" Text="Hector Ruiz" Font-Bold="True"></asp:Label>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplsoporte000" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplsoporte0000" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:Label ID="Lblfrancisco" runat="server" Text="Francisco Nonato" Font-Bold="True" ForeColor="Black"></asp:Label>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="hplsoporte1" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplsoporte11" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:Label ID="Lblsegismundo" runat="server" Text="Segismundo Mateos" Font-Bold="True"></asp:Label>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplsoporte2" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplsoporte22" runat="server" Font-Bold="False">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:Label ID="Lblangel" runat="server" Text="Angel Cordero" Font-Bold="True"></asp:Label>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplsoporte3" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplsoporte33" runat="server">HyperLink</asp:HyperLink>
+                </div>
+                <div class="etiqueta">
+                    <asp:Label ID="Lblestadisticas" runat="server" Text="Estadisticas de Reportes" Font-Bold="True" Font-Italic="True" Font-Size="Medium"></asp:Label>
+                </div>
+                <div class="etiqueta">
+                    <asp:HyperLink ID="Hplestadisticagral" runat="server">HyperLink</asp:HyperLink>
+                </div>
+   
+        </div>
+        <div id="contenido_derecho">
+            <div id="contenido_menu">
+                
+                <td>
+                    <asp:Button ID="Btnagregar" runat="server" Text="Agregar Reporte" CssClass="margenboton" OnClick="Btnagregar_Click" ToolTip="Agrega nuevo Reporte" Width="170px"/>
+                </td>
+                <td>
+                    <asp:Button ID="Btnagusuario" runat="server" Text="Agregar Usuario" CssClass="siguienteboton" Width="170px" OnClick="Button1_Click" ToolTip="Agrega nuevo usuario (administrador, cordinador o soporte)" />
+                </td>
+                <td>
+                    <asp:Button ID="Btnbuscar" runat="server" Text="Buscar Reportes" CssClass="siguienteboton" Width="170px" ToolTip="Busca reportes Abiertos o Cerrados" OnClick="Btnbuscar_Click" />
+                </td>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <!--Todo el codigo-->
+
+            </asp:ContentPlaceHolder>
+        </div>                 
+       
+    </div>
+    </form>
+</body>
+</html>

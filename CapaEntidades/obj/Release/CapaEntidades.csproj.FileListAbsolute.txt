@@ -1,0 +1,5 @@
+C:\sistema de reportes\scorpion\sistemadereportes\CapaEntidades\bin\Release\CapaEntidades.dll
+C:\sistema de reportes\scorpion\sistemadereportes\CapaEntidades\bin\Release\CapaEntidades.pdb
+C:\sistema de reportes\scorpion\sistemadereportes\CapaEntidades\obj\Release\CapaEntidades.csprojResolveAssemblyReference.cache
+C:\sistema de reportes\scorpion\sistemadereportes\CapaEntidades\obj\Release\CapaEntidades.dll
+C:\sistema de reportes\scorpion\sistemadereportes\CapaEntidades\obj\Release\CapaEntidades.pdb

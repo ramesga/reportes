@@ -1,0 +1,154 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    color:black;
+    font-size:12px;
+    line-height:17px;
+    font-family:"Calibri";
+    background-color:white;
+    background-position:center top;
+    background-repeat:no-repeat;
+}
+h2
+{
+    text-align:center;
+
+}
+a, a:link, a:visited
+{
+    color: blue;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+a:hover
+{
+    text-decoration:underline;
+}
+#abrigo_general
+{
+    width:1350px;
+    margin:0 auto;
+
+}
+
+#content_login
+{
+    margin-top:110px;
+    overflow:hidden;
+    width:720px;
+    position:relative;
+    padding-bottom:10px;
+}
+
+#contenido_agregarusuario
+{
+    margin-top:83px;
+    width:700px;
+}
+
+#contenido_hojaactividades
+{
+    margin-top:20px;
+    width:1200px;
+}
+
+#content_anonimo
+{
+    margin-top:2px;
+}
+#content_titulo
+{
+    width:1100px;
+  
+}
+#banner
+{
+    
+    background: url(imagenessistema/logo.jpg);
+    height:50px;
+    width:152px;
+}
+
+#contenido_izquierdo
+{
+    float:left;
+    width:118px;
+    height:800px;
+    text-align:center;
+    margin-left:0px;
+    
+    background-color:gainsboro;
+}
+
+#contenido_izq_etiqueta
+{
+    float:left;
+    width:125px;
+    height:20px;
+    text-align:left;
+    margin-left:5px;
+
+}
+
+#contenido_derecho
+{
+    
+    width:1228px;
+    height:800px;
+    background-color:white;
+    margin-left:120px;
+}
+
+.alinear
+{
+    text-align:initial left;
+}
+
+#abrigo_formulario
+{
+    float:left;
+    width:1164px;
+    margin-left:5px;
+    background-color:white;
+}
+
+.primeramayus
+{
+    text-transform:capitalize;
+}
+
+
+.centrartext
+{
+    text-align:center;
+}
+
+.fondotitulo
+{
+    background-color: gainsboro;
+}
+
+#contenido_menu
+{
+    width:1228px;
+    height:40px;
+    background-color:black;
+}
+.margenboton
+{
+    margin-top:7px;
+    margin-left:15px;
+}
+
+.siguienteboton
+{
+    margin-top:7px;
+    margin-left:40px;
+}
+
+.fondoboton
+{
+    background-color:black;
+}

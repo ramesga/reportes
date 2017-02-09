@@ -1,0 +1,4 @@
+C:\sistema de reportes\scorpion\sistemadereportes\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\sistema de reportes\scorpion\sistemadereportes\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\sistema de reportes\scorpion\sistemadereportes\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\sistema de reportes\scorpion\sistemadereportes\CapaEntidades\obj\Debug\CapaEntidades.pdb

@@ -1,0 +1,9 @@
+C:\sistema de reportes\scorpion\sistemadereportes\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\sistema de reportes\scorpion\sistemadereportes\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\sistema de reportes\scorpion\sistemadereportes\CapaNegocio\bin\Debug\Capadatos.dll
+C:\sistema de reportes\scorpion\sistemadereportes\CapaNegocio\bin\Debug\CapaEntidades.dll
+C:\sistema de reportes\scorpion\sistemadereportes\CapaNegocio\bin\Debug\Capadatos.pdb
+C:\sistema de reportes\scorpion\sistemadereportes\CapaNegocio\bin\Debug\CapaEntidades.pdb
+C:\sistema de reportes\scorpion\sistemadereportes\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\sistema de reportes\scorpion\sistemadereportes\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\sistema de reportes\scorpion\sistemadereportes\CapaNegocio\obj\Debug\CapaNegocio.pdb
